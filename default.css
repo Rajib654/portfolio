@@ -95,6 +95,7 @@ h6{font-size: 16px;}
     border-radius: 50%;
     box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
     margin: 5px;
+    cursor: pointer;
 }
 #dots-1{
     background-color: #FC6058;
@@ -202,6 +203,26 @@ h6{font-size: 16px;}
 #corner-br{
     bottom: -5px;
     right: -5px;
+}
+
+.about-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 100px;
+    padding: 50px 0;
+}
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
+}
+.social-links{
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+.social-img{
+    width: 100%;
 }
 @media  screen and (max-width:1200px) {
     .main-container{
